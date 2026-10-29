@@ -2,9 +2,9 @@ package org.fuzita.application.usecases.create;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.fuzita.application.persistence.client.ClientRepository;
 import org.fuzita.domain.client.Client;
 import org.fuzita.domain.client.ClientStatus;
+import org.fuzita.domain.client.repository.ClientRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
